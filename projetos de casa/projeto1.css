@@ -1,0 +1,50 @@
+.gta{
+    float: left;
+    margin-left: 04px;
+    width: 10%;
+    border-radius: 10px;
+}
+.level{
+    color: red;
+}
+h1{
+    color: blue;
+}
+.controle{
+    float: left;
+    margin-left: 04px;
+    width: 10%;
+    border-radius: 10px;
+}
+.xbox{
+    float: left;
+    margin-left: 04px;
+    width: 13%;
+    border-radius: 10px;
+}
+.jogos{
+    float: left;
+    margin-left: 04px;
+    width: 10%;
+    border-radius: 10px;
+}
+.marvel{
+    float: left;
+    margin-left: 04px;
+    width: 10%;
+    border-radius: 10px;
+   
+}
+.star {
+ float: left;
+    margin-left: 04px;
+    width: 12%;
+    border-radius: 10px;
+}
+.site {
+    margin-left: 50%;
+}
+.princ {
+    margin-left: 48%;
+    margin-top: -01%;
+}
