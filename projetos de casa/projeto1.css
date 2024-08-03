@@ -19,7 +19,7 @@ h1{
 .xbox{
     float: left;
     margin-left: 04px;
-    width: 13%;
+    width: 15%;
     border-radius: 10px;
 }
 .jogos{
@@ -38,7 +38,7 @@ h1{
 .star {
  float: left;
     margin-left: 04px;
-    width: 12%;
+    width: 15%;
     border-radius: 10px;
 }
 .site {
@@ -47,4 +47,10 @@ h1{
 .princ {
     margin-left: 48%;
     margin-top: -01%;
+}
+body{
+    background-color: rgb(105, 103, 103);
+}
+table{
+    margin-left: 50%;
 }
