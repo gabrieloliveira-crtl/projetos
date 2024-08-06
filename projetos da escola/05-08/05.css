@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(100, 99, 99);
+}
+div{
+    background-color: rgb(255, 0, 0);
+    margin-left: 35%;
+    border-radius: 1%;
+    width: 30%;
+    padding: 10px;
+    
+}
+form{
+    text-align: center;
+}
