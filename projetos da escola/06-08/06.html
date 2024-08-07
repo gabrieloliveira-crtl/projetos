@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="06.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>aprendizado do dia 06</title>
+    </head>
+    <body>
+<!-- feito o cabeçalho -->
+        <header>
+            <h1>Cadastro do INSS</h1>
+            <h2>Cadastro</h2>
+            <div>
+                <a href="form.html">
+                    <button>CADASTRE-SE</button>
+                </a>
+            </div>
+
+            <main>
+            </header>
+            <!-- Section - feito o meio do site onde fica as tags de audio video e o iframe do google maps -->
+            <section>
+                <main>
+                    <h1>Áudio e Vídeo</h1>
+                    <h2>Áudio</h2><br><br>
+                    <audio controls src="aud/Mr.Kitty - After Dark.mp3"></audio>
+                    <h2>Vídeo</h2><br><br>
+                    <video  src="img/4733-179738669_tiny.mp4"
+                        controls
+                        poster="img/Unofficial_JavaScript_logo_2.svg.png"
+                        width="30%"></video>
+
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.9207352364274!2d-46.44970582542296!3d-23.535353160635854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1722984496123!5m2!1spt-BR!2sbr"
+                            width="600" height="450"
+                            style="border-radius: 10px;"
+                            allowfullscreen loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                    <!-- Main - feito para indicar ao navegador onde é a parte mais importante do site -->
+                </main>
+            </section>
+        </main>
+        <!-- feito a parte de acessibilidade -->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+          <!-- footer - feito as listas com os termos -->
+        <footer>
+            <nav>
+                <ul><li>
+                        <a href>Termos de segurança</a>
+                    </li></ul>
+                    <ul>
+                        <li>
+                            <a href="">Termos de Riscos</a>
+                        </li>
+                    </ul>
+
+
+            </nav>
+        </footer>
+    </body>
+</html>
