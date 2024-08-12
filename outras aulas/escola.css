@@ -5,6 +5,7 @@ body{
     float: left;
     width: 12%;
     margin-left: 14%;
+    border-radius: 10px;
 }
 h2 {
     margin-left: 30%;
